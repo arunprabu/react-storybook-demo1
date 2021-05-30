@@ -1,0 +1,15 @@
+.card{
+  border: solid 1px #ccc;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.cardXl{
+  width: 200px;
+  min-height: 120px;
+}
+
+.cardMd{
+  width: 160px;
+  min-height: 90px;
+}
