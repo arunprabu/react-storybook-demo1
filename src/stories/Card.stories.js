@@ -8,18 +8,20 @@ export default {
   component: Card,
 }
 
-const Template = (args) => <Card {...args}>Card</Card>;
+const Template = (args) => <Card {...args}/>;
 
 export const XlCard = Template.bind({});
 XlCard.args = {
   layout: 'card',
   variant: 'cardXl',
+  label: 'XL Card'
 };
 
 export const MdCard = Template.bind({});
 MdCard.args = {
   layout: 'card',
   variant: 'cardMd',
+  label: 'Medium Card'
 };
 
 // export const XlCard = () => <Card color="card" size="cardXl">XL card</Card>;

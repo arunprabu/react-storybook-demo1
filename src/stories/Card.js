@@ -7,7 +7,7 @@ export function Card(props) {
   const cssStyle = `${variant} ${layout}`;
   return (
     <section className={cssStyle}>
-      {props.children}
+      {props.label}
     </section>
   )
 }
